@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Integrator Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 8px;
+    }
+    .integrator-id {
+      margin-bottom: 15px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
 <body>
-
-<h1>The iframe element</h1>
-  <p> this is a test line</p>
-
-<iframe src="https://sjc6fshth1lhi3p.eu.qlikcloud.com/single/?appid=7dbde5df-f6f9-4797-841c-b10bed74bada&sheet=ed0e75cb-b6f3-4509-a56b-b44151d08fb9&theme=horizon&opt=ctxmenu,currsel" style="border:none;width:100%;height:100%;"></iframe>
+  <div class="container">
+    <div class="integrator-id">
+      Web Integrator ID: <span id="integratorId">KTWf8etwVA98ygwh7Mc1D-PCyjdctBNB</span>
+    </div>
+    <iframe src="https://sjc6fshth1lhi3p.eu.qlikcloud.com/single/?appid=8251564e-11f6-497d-bf2e-29a997c55895&sheet=89e46399-c4a5-4c61-8c7e-91944285fe51&theme=sense&opt=ctxmenu,currsel" title="Embedded Content"></iframe>
+  </div>
 </body>
 </html>
